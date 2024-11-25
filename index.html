@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            width: 80%;
+            max-width: 900px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: auto;
+        }
+
+        .details {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .details div {
+            margin: 5px 0;
+        }
+
+        .details span {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer div {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <img src="logo.png" alt="Logo" class="logo">
+        
+        <!-- Student Details -->
+        <div class="details">
+            <div><span>Student ID:</span> 2021-1234</div>
+            <div><span>Student Name:</span> John Doe</div>
+            <div><span>Course & Section:</span> BSCS-1A</div>
+            <div><span>Academic Year:</span> 2024-2025</div>
+            <div><span>Semester:</span> 1st Semester</div>
+        </div>
+
+        <!-- Table with Subjects -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                    <th>Credits</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS101</td>
+                    <td>Introduction to Computer Science</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>MATH101</td>
+                    <td>Calculus 1</td>
+                    <td>4</td>
+                    <td>B+</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>ENG101</td>
+                    <td>English Composition</td>
+                    <td>3</td>
+                    <td>A</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>PHY101</td>
+                    <td>Physics 1</td>
+                    <td>3</td>
+                    <td>B</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>HIST101</td>
+                    <td>World History</td>
+                    <td>3</td>
+                    <td>A-</td>
+                    <td>Passed</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer with Total Units and Average Grade -->
+        <div class="footer">
+            <div>Total Units: 16</div>
+            <div>Average Grade: B+</div>
+        </div>
+    </div>
+</body>
+</html>
